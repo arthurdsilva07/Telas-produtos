@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- importação externa -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- css global -->
+    <link rel="stylesheet" href="../styles/global.css" />
+    <!-- css da página -->
+    <link rel="stylesheet" href="../styles/products.css" />
+    <title>Produtos</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row1-container-header">
+          <!-- logo -->
+          <div class="icon-logo"><img src="../assets/logo.svg" alt="" /></div>
+          <!-- barra e busca -->
+          <div class="bar-search">
+            <input class="input-search" type="text" placeholder="Digite oque deseja buscar..." />
+            <i class="fi fi-rr-search"></i>
+          </div>
+          <!-- Botões de navegação -->
+          <ul class="grup-btn-header">
+            <li>
+              <a href="">
+                <i class="fi fi-rr-user icon-G"></i>
+                <p>Cadastre-se ou faça login</p>
+              </a>
+            </li>
+            <li>
+              <a href=""><i class="fi fi-rr-headset icon-G"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fi fi-rr-heart icon-G"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fi fi-rr-shopping-cart icon-G"></i></a>
+            </li>
+          </ul>
+        </div>
+        <nav>
+          <ul class="grup-btn-header-nav">
+            <li>
+              <div class="btn-dropdown"><i class="fi fi-ts-dog icon-M"></i><span>Cachorros</span></div>
+              <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="btn-dropdown"><i class="fi fi-ts-cat icon-M"></i><span>Gatos</span></div>
+              <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="btn-dropdown"><i class="fi fi-ts-bird icon-M"></i><span>Pássaros</span></div>
+              <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="btn-dropdown"><i class="fi fi-ts-fish icon-M"></i><span>Peixes</span></div>
+              <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="btn-dropdown"><span>Outros Pets</span></div>
+              <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Fim do Cabeçario -->
+
+    <section class="section-from-img"></section>
+    <div class="container">
+      <div class="division-template">
+        <!-- Barra lateral -->
+        <aside>
+          <!-- card Calcular Frete -->
+          <div class="calc-frete">
+            <div class="texto">
+              <h4>Entregar em:</h4>
+            </div>
+            <input type="text" placeholder="Informe o CEP" />
+          </div>
+          <div class="filter">
+            <h4>Categorias:</h4>
+            <hr />
+            <p>Categoria 1</p>
+            <p>Categoria 1</p>
+            <p>Categoria 1</p>
+            <p>Categoria 1</p>
+            <h4>Faixa de preço:</h4>
+            <hr />
+            <div>
+              <input type="checkbox" id="opt1" />
+              <label for="opt1">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <div>
+              <input type="checkbox" id="opt2" />
+              <label for="opt2">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <div>
+              <input type="checkbox" id="opt3" />
+              <label for="opt3">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <div>
+              <input type="checkbox" id="opt4" />
+              <label for="opt4">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <h4>Marcas:</h4>
+            <hr />
+            <div>
+              <input type="checkbox" id="marc1" />
+              <label for="marc1">Marca 01</label>
+            </div>
+            <div>
+              <input type="checkbox" id="marc2" />
+              <label for="marc2">Marca 02</label>
+            </div>
+            <div>
+              <input type="checkbox" id="marc3" />
+              <label for="marc3">Marca 03</label>
+            </div>
+            <div>
+              <input type="checkbox" id="marc4" />
+              <label for="marc4">Marca 04</label>
+            </div>
+            <h4>Idade do Pet:</h4>
+            <hr />
+            <div>
+              <input type="checkbox" id="idade1" />
+              <label for="idade1">Filhote</label>
+            </div>
+            <div>
+              <input type="checkbox" id="idade2" />
+              <label for="idade2">Adulto</label>
+            </div>
+            <div>
+              <input type="checkbox" id="idade3" />
+              <label for="idade3">Idoso</label>
+            </div>
+          </div>
+        </aside>
+        <!-- Conteudo -->
+        <main>
+          <p class="router">Home > Categoria > Produtos</p>
+          <h1 class="title-h1">Transporte</h1>
+          <p class="p">
+            Para levar os amigos de quatro patas em viagens, é indispensável transportá-los com segurança e toda a comodidade possível.
+          </p>
+          <div class="config-page">
+            <p>página 1-4</p>
+            <div>
+              <label for="">Ordenar por: </label>
+              <select name="" id="">
+                <option value="">Mais Popular</option>
+                <option value="">Menor Preço</option>
+                <option value="">Maior Preço</option>
+              </select>
+            </div>
+          </div>
+          <div class="grup-card">
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 1.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Caixa de Transporte Furacão Pet Joy</h2>
+                  <!-- Descrição -->
+                  <p>Indicada para cães e gatos.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 2.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Caixa de Transporte Luxo Furacão Pet </h2>
+                  <!-- Descrição -->
+                  <p>Indicada para passeios.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 3.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Caixa de Transporte Atlas Trendy Ferplast</h2>
+                  <!-- Descrição -->
+                  <p>Na cor: marrom com cinza</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 4.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Caixa de Transporte Alvorada New Verde</h2>
+                  <!-- Descrição -->
+                  <p>Indicado para cães e gatos.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 5.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Caixa de Transporte Ferplast Atlas</h2>
+                  <!-- Descrição -->
+                  <p>Disponível em 2 tamanhos.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 6.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Carrinho Pet&Go Basic Azul</h2>
+                  <!-- Descrição -->
+                  <p>Para cães e gatos.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 7.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Bolsa de Transporte Fábrica Pet Disney</h2>
+                  <!-- Descrição -->
+                  <p>Confeccionada com essa linda estampa Disney</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 8.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Assento Tubline Transpet Big</h2>
+                  <!-- Descrição -->
+                  <p>Compatível com boa parte dos assentos dos carros</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 9.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Mochila Chalesco Vision Preta Plus</h2>
+                  <!-- Descrição -->
+                  <p>Perfeita para transportar o seu pet com segurança.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 10.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Bolsa de Transporte I Love Pet Pied Poule</h2>
+                  <!-- Descrição -->
+                  <p>Material resistente, maleável e impermeável.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 11.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Bolsa de Transporte São Pet Aerial LT</h2>
+                  <!-- Descrição -->
+                  <p>Perfeita locomover seu pet com segurança.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 12.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Carrinho Chalesco Confort Ride</h2>
+                  <!-- Descrição -->
+                  <p>Solução segura e pratica para os passeios</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 13.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Caixa de Transporte Furacão Pet Joy</h2>
+                  <!-- Descrição -->
+                  <p>Modelo leve sendo ideal para o transporte de animais</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 14.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Caixa de Transporte DuraPets Verde</h2>
+                  <!-- Descrição -->
+                  <p>Oferece conforto e segurança</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\transporte card 15.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Caixa de Transporte Plast Pet Cargo</h2>
+                  <!-- Descrição -->
+                  <p>Conta com novo sistema de travas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+          </div>
+          <div class="count-pages">
+            <div class="card-count-pages">
+              <i class="fi fi-rr-arrow-small-left"></i>
+              <span>Anterior</span>
+            </div>
+            <div class="card-count-pages active">
+              <span>1</span>
+            </div>
+            <div class="card-count-pages">
+              <span>2</span>
+            </div>
+            <div class="card-count-pages">
+              <span>3</span>
+            </div>
+            <div class="card-count-pages">
+              <span>4</span>
+            </div>
+            <div class="card-count-pages">
+              <span>Proximo</span>
+              <i class="fi fi-rr-arrow-small-right"></i>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Inicio Rodapé -->
+    <footer>
+      <div class="container rodape">
+        <div class="coluna-rodape">
+          <h3>Redes Sociais</h3>
+          <div class="rede-sociais-icon">
+            <i class="fi fi-brands-instagram"></i>
+            <i class="fi fi-brands-facebook"></i>
+            <i class="fi fi-brands-linkedin"></i>
+            <i class="fi fi-brands-twitter-alt-square"></i>
+          </div>
+          <h3>Meios de pagamentos</h3>
+          <div class="meio-de-pagamento-icon">
+            <img src="c:\Users\Incorel\Downloads\mastercard-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\visa-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\hypercard-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\americanexpress-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\dinersclub-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\elo-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\barcode-icon.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\pix.png" alt="" /> 
+          </div>
+        </div>
+        <div class="coluna-rodape">
+          <h3>Empresa</h3>
+          <ul class="rodape-texto">
+            <li>Sobre nós</li>
+            <li>Trabalhe Conosco</li>
+            <li>Denuncias</li>
+            <li>Termos e condições de uso</li>
+          </ul>
+        </div>
+        <div class="coluna-rodape">
+          <h3>Politicas</h3>
+          <ul class="rodape-texto">
+            <li>Aviso de privacidade</li>
+            <li>Pólitica de cookies</li>
+            <li>Entrega e frete</li>
+            <li>Trocas e devoluções</li>
+            <li>Pagamentos e reembolsos</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Fim Rodapé -->
+  </body>
+</html>

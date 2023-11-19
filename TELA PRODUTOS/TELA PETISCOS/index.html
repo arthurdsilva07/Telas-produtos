@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- importação externa -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- css global -->
+    <link rel="stylesheet" href="../styles/global.css" />
+    <!-- css da página -->
+    <link rel="stylesheet" href="../styles/products.css" />
+    <title>Produtos</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row1-container-header">
+          <!-- logo -->
+          <div class="icon-logo"><img src="../assets/logo.svg" alt="" /></div>
+          <!-- barra e busca -->
+          <div class="bar-search">
+            <input class="input-search" type="text" placeholder="Digite oque deseja buscar..." />
+            <i class="fi fi-rr-search"></i>
+          </div>
+          <!-- Botões de navegação -->
+          <ul class="grup-btn-header">
+            <li>
+              <a href="">
+                <i class="fi fi-rr-user icon-G"></i>
+                <p>Cadastre-se ou faça login</p>
+              </a>
+            </li>
+            <li>
+              <a href=""><i class="fi fi-rr-headset icon-G"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fi fi-rr-heart icon-G"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fi fi-rr-shopping-cart icon-G"></i></a>
+            </li>
+          </ul>
+        </div>
+        <nav>
+          <ul class="grup-btn-header-nav">
+            <li>
+              <div class="btn-dropdown"><i class="fi fi-ts-dog icon-M"></i><span>Cachorros</span></div>
+              <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="btn-dropdown"><i class="fi fi-ts-cat icon-M"></i><span>Gatos</span></div>
+              <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="btn-dropdown"><i class="fi fi-ts-bird icon-M"></i><span>Pássaros</span></div>
+              <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="btn-dropdown"><i class="fi fi-ts-fish icon-M"></i><span>Peixes</span></div>
+              <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="btn-dropdown"><span>Outros Pets</span></div>
+              <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Fim do Cabeçario -->
+
+    <section class="section-from-img"></section>
+    <div class="container">
+      <div class="division-template">
+        <!-- Barra lateral -->
+        <aside>
+          <!-- card Calcular Frete -->
+          <div class="calc-frete">
+            <div class="texto">
+              <h4>Entregar em:</h4>
+            </div>
+            <input type="text" placeholder="Informe o CEP" />
+          </div>
+          <div class="filter">
+            <h4>Categorias:</h4>
+            <hr />
+            <p>Categoria 1</p>
+            <p>Categoria 1</p>
+            <p>Categoria 1</p>
+            <p>Categoria 1</p>
+            <h4>Faixa de preço:</h4>
+            <hr />
+            <div>
+              <input type="checkbox" id="opt1" />
+              <label for="opt1">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <div>
+              <input type="checkbox" id="opt2" />
+              <label for="opt2">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <div>
+              <input type="checkbox" id="opt3" />
+              <label for="opt3">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <div>
+              <input type="checkbox" id="opt4" />
+              <label for="opt4">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <h4>Marcas:</h4>
+            <hr />
+            <div>
+              <input type="checkbox" id="marc1" />
+              <label for="marc1">Marca 01</label>
+            </div>
+            <div>
+              <input type="checkbox" id="marc2" />
+              <label for="marc2">Marca 02</label>
+            </div>
+            <div>
+              <input type="checkbox" id="marc3" />
+              <label for="marc3">Marca 03</label>
+            </div>
+            <div>
+              <input type="checkbox" id="marc4" />
+              <label for="marc4">Marca 04</label>
+            </div>
+            <h4>Idade do Pet:</h4>
+            <hr />
+            <div>
+              <input type="checkbox" id="idade1" />
+              <label for="idade1">Filhote</label>
+            </div>
+            <div>
+              <input type="checkbox" id="idade2" />
+              <label for="idade2">Adulto</label>
+            </div>
+            <div>
+              <input type="checkbox" id="idade3" />
+              <label for="idade3">Idoso</label>
+            </div>
+          </div>
+        </aside>
+        <!-- Conteudo -->
+        <main>
+          <p class="router">Home > Categoria > Produtos</p>
+          <h1 class="title-h1">Petiscos</h1>
+          <p class="p">
+            Os petiscos podem ser fornecidos entre as refeições e como recompensa no adestramento. Para agradar aos diferentes paladares, existem diversas opções.
+          </p>
+          <div class="config-page">
+            <p>página 1-4</p>
+            <div>
+              <label for="">Ordenar por: </label>
+              <select name="" id="">
+                <option value="">Mais Popular</option>
+                <option value="">Menor Preço</option>
+                <option value="">Maior Preço</option>
+              </select>
+            </div>
+          </div>
+          <div class="grup-card">
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\petiscos card 1.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Snack Petz Mini Bifinho Carne</h2>
+                  <!-- Descrição -->
+                  <p>Indicado para cães adultos.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\petiscos card 2.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Snack Petz Crocante Angus - 100g</h2>
+                  <!-- Descrição -->
+                  <p>Delicioso sabor de Angus.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\petiscos card 3.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Osso PetTreats Pernil para Cães - 1 unidade</h2>
+                  <!-- Descrição -->
+                  <p>Livre de conservantes.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\petiscos card 4.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Osso PetTreats Orelha Bovina Natural</h2>
+                  <!-- Descrição -->
+                  <p>Contém 1 unidade.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\petiscos card 5.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Biscoito Pedigree Biscrok Multi</h2>
+                  <!-- Descrição -->
+                  <p>Deliciosos biscoitos assados.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\petiscos card 6.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Biscoito Pedigree Biscrok Marrobone</h2>
+                  <!-- Descrição -->
+                  <p>Sabor carne.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\petiscos card 7.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Biscoito Golden Sabor Banana Aveia e Mel</h2>
+                  <!-- Descrição -->
+                  <p>Indicado para cães adultos.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\petiscos card 8.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Biscoito Golden Cookie Sabor Original</h2>
+                  <!-- Descrição -->
+                  <p>Indicado para Cães Filhotes</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\petiscos card 9.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Bifinho Keldog Sabor Carne e Cereais</h2>
+                  <!-- Descrição -->
+                  <p>Para Cães de Porte Pequeno.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="c:\Users\Incorel\Downloads\petiscos card 10.jpg" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Bifinho KelDog Mini para Cães Adultos</h2>
+                  <!-- Descrição -->
+                  <p>Sabor carne.</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+
+            
+
+          </div>
+          <div class="count-pages">
+            <div class="card-count-pages">
+              <i class="fi fi-rr-arrow-small-left"></i>
+              <span>Anterior</span>
+            </div>
+            <div class="card-count-pages active">
+              <span>1</span>
+            </div>
+            <div class="card-count-pages">
+              <span>2</span>
+            </div>
+            <div class="card-count-pages">
+              <span>3</span>
+            </div>
+            <div class="card-count-pages">
+              <span>4</span>
+            </div>
+            <div class="card-count-pages">
+              <span>Proximo</span>
+              <i class="fi fi-rr-arrow-small-right"></i>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Inicio Rodapé -->
+    <footer>
+      <div class="container rodape">
+        <div class="coluna-rodape">
+          <h3>Redes Sociais</h3>
+          <div class="rede-sociais-icon">
+            <i class="fi fi-brands-instagram"></i>
+            <i class="fi fi-brands-facebook"></i>
+            <i class="fi fi-brands-linkedin"></i>
+            <i class="fi fi-brands-twitter-alt-square"></i>
+          </div>
+          <h3>Meios de pagamentos</h3>
+          <div class="meio-de-pagamento-icon">
+            <img src="c:\Users\Incorel\Downloads\mastercard-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\visa-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\hypercard-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\americanexpress-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\dinersclub-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\elo-logo.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\barcode-icon.png" alt="" />
+            <img src="c:\Users\Incorel\Downloads\pix.png" alt="" /> 
+          </div>
+        </div>
+        <div class="coluna-rodape">
+          <h3>Empresa</h3>
+          <ul class="rodape-texto">
+            <li>Sobre nós</li>
+            <li>Trabalhe Conosco</li>
+            <li>Denuncias</li>
+            <li>Termos e condições de uso</li>
+          </ul>
+        </div>
+        <div class="coluna-rodape">
+          <h3>Politicas</h3>
+          <ul class="rodape-texto">
+            <li>Aviso de privacidade</li>
+            <li>Pólitica de cookies</li>
+            <li>Entrega e frete</li>
+            <li>Trocas e devoluções</li>
+            <li>Pagamentos e reembolsos</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Fim Rodapé -->
+  </body>
+</html>
